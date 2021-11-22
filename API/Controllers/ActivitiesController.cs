@@ -6,7 +6,6 @@ using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Application.Activities;
 using Application;
-using System.Threading;
 
 namespace API.Controllers
 {
