@@ -1,11 +1,11 @@
-import { Segment, FormInput, FormTextArea, Button, FormField, Label, Header } from 'semantic-ui-react';
-import React, { useState, ChangeEvent, useEffect } from 'react';
+import { Segment, Button, Header } from 'semantic-ui-react';
+import React, { useState, useEffect } from 'react';
 import { useStore } from '../../../app/stores/store';
 import { observer } from 'mobx-react-lite';
 import { Link, useHistory, useParams } from 'react-router-dom';
 import LoadingComponent from '../../../app/layout/loadingComponent';
 import {v4 as uuid} from 'uuid';
-import {Formik, Form, Field, ErrorMessage} from "formik";
+import {Formik, Form} from "formik";
 import * as Yup from 'yup';
 import MyTextInput from '../../../app/common/form/MyTextInput';
 import MyTextArea from '../../../app/common/form/MyTextArea';
